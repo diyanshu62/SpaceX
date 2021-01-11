@@ -1,3 +1,6 @@
+const demo = ()=>{
+  return <div>demo</div>
+}
 const Heading = () => {
   return <h2 className="sp-header" style={{margin:"7px 10px 7px 10px"}}>SpaceX Launch Programs</h2>;
 };
@@ -29,6 +32,7 @@ const MainContainerFilter = (props) => {
   return <div className="sp-wrapper-filter">{props.children}</div>;
 };
 
+export default demo;
 export {
   Heading,
   TitleOnFilterComp,

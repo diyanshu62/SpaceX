@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+const demo = ()=>{
+  return <div>demo</div>
+}
 const TitleCounterComp = (props) => {
   return (
     <div className="sp-first-title">
@@ -69,4 +72,5 @@ const FilterValue = (props) => {
   );
 };
 
+export default demo;
 export { TitleCounterComp, TileContainer, FilterValue };
