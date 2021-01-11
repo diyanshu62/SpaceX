@@ -34,7 +34,7 @@ const MainContainerFilter = (props) => {
   return <div className="sp-wrapper-filter">{props.children}</div>;
 };
 
-export default demo;
+export default demo; //TODO: needs to be removed later
 export {
   Heading,
   TitleOnFilterComp,

@@ -16,7 +16,7 @@ const Loader = () => {
     zIndex:"99999",
   };
 
-  return <div style={styles}>Loading....</div>;
+  return <div style={styles}>Fetching....</div>;
 };
 
 export default Loader;

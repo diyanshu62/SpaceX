@@ -11,5 +11,5 @@ const TileImageComp = (props) => {
       </div>
     );
   };
-
+ 
 export default TileImageComp;

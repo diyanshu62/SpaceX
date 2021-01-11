@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 const demo = ()=>{
   return <div>demo</div>
 }
@@ -25,31 +25,30 @@ const FilterValue = (props) => {
   const [isClickedLaunch, setIsClickedLaunch] = useState(false);
   const [isClickedLanding, setIsClickedLanding] = useState(false);
   const [isClicked, setClicked] = useState(false);
- 
   const handleFilterSelect = () => {
     if (props.type == "landing") {
-      if(!isClickedLanding){
+     // if(!isClickedLanding){
         props.handleFilterForYear(props.year, props.type);
-      }else{
-        props.handleFilterForYear("", props.type);
-      }
-      setIsClickedLanding(!isClickedLanding);
+     // }else{
+      //  props.handleFilterForYear("", props.type);
+     // }
+     // setIsClickedLanding(!isClickedLanding);
     } else if (props.type == "launch") {
-      if(!isClickedLaunch){
+     // if(!isClickedLaunch){
         props.handleFilterForYear(props.year, props.type);
-      }else{
-        props.handleFilterForYear("", props.type);
-      }
-      setIsClickedLaunch(!isClickedLaunch);
+     // }else{
+     //   props.handleFilterForYear("", props.type);
+     // }
+     // setIsClickedLaunch(!isClickedLaunch);
     } else if(props.type == "year") {
-      if(!isClickedYear){
+    //  if(!isClickedYear){
         props.handleFilterForYear(props.year, props.type);
-      }else{
-        props.handleFilterForYear("", props.type);
-      }
-      setIsClickedYear(!isClickedYear);
+     // }else{
+     //   props.handleFilterForYear("", props.type);
+     // }
+     // setIsClickedYear(!isClickedYear);
     } else{}
-    setClicked(!isClicked);
+  //  setClicked(!isClicked);
   };
 
   if (isClicked) {
@@ -74,5 +73,5 @@ const FilterValue = (props) => {
   );
 };
 
-export default demo;
+export default demo; //TODO: needs to be removed later
 export { TitleCounterComp, TileContainer, FilterValue };
