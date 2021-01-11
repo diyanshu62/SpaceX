@@ -5,7 +5,7 @@ To run this module, need -
 
 2. Next JS -
 npm install next react react-dom
-# or
+or
 yarn add next react react-dom
 
 3. axios - yarn add axios
