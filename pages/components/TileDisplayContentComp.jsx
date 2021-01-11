@@ -11,11 +11,11 @@ import TitleContentComp from '../components/TitleContent';
 const Display = (item, index) => {
     return (
       <TileContainer key={index}>
-        <TileImageComp src={item.links.mission_patch} />
+        <TileImageComp src={item.links?item.links.mission_patch:""} />
         <TitleCounterComp content={item.mission_name} id={item.flight_number} />
         <TitleMissionComp
           title="Mission ID:"
-          value={item.mission_id[0] ? item.mission_id[0] : "Null"}
+          value={item.mission_id ? item.mission_id[0] : "Null"}
         />
         <TitleContentComp title="Launch year:" value={item.launch_year} />
         <TitleContentComp

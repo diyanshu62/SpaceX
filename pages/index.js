@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import Loader from "./components/Loader";
-import URL from './components/URL';
 import {
   Heading,
   TitleOnFilterComp,
@@ -16,7 +15,7 @@ import {
   FilterValue
 } from './components/ComponentsWithProps';
 import Display from './components/TileDisplayContentComp';
-
+const URL = "https://api.spaceXdata.com/v3/launches";
 /* Main component here */
 const Home = (prop) => {
   const [data, setData] = useState(prop.data);
