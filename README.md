@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -28,3 +29,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# SpaceX
+
+To run this module, need -
+1. Node JS - (https://nodejs.org/en/download/)
+
+2. Next JS -
+npm install next react react-dom
+or
+yarn add next react react-dom
+
+3. axios - yarn add axios
+
+Once this is set up, go to main folder and run
+npm run dev
+>>>>>>> f6e38f2dcf27319d2246233527a7390d4cb7a56e
